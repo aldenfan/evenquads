@@ -1,0 +1,19 @@
+[project]
+name = "evenquads"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alden Fan", email = "afan@slac.stanford.edu" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.24.4",
+]
+
+[project.scripts]
+evenquads = "evenquads:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
